@@ -38,6 +38,7 @@ namespace Priklady_na_proscviceni_na_30._01
             this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +57,7 @@ namespace Priklady_na_proscviceni_na_30._01
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(12, 105);
+            this.label2.Location = new System.Drawing.Point(12, 120);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(279, 40);
             this.label2.TabIndex = 1;
@@ -66,9 +67,9 @@ namespace Priklady_na_proscviceni_na_30._01
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(391, 105);
+            this.listBox2.Location = new System.Drawing.Point(391, 137);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(153, 308);
+            this.listBox2.Size = new System.Drawing.Size(127, 276);
             this.listBox2.TabIndex = 2;
             // 
             // numericUpDown2
@@ -116,7 +117,7 @@ namespace Priklady_na_proscviceni_na_30._01
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(297, 120);
+            this.label3.Location = new System.Drawing.Point(297, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 25);
             this.label3.TabIndex = 7;
@@ -132,10 +133,24 @@ namespace Priklady_na_proscviceni_na_30._01
             this.label4.TabIndex = 8;
             this.label4.Text = "2.Úkol";
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button5.Location = new System.Drawing.Point(448, 29);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(70, 66);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "Info";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Ukol2
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(556, 439);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button4);
@@ -170,5 +185,6 @@ namespace Priklady_na_proscviceni_na_30._01
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button5;
     }
 }

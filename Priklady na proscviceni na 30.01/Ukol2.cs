@@ -159,6 +159,9 @@ namespace Priklady_na_proscviceni_na_30._01
             }
         }
 
-        
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("pokud se vygeneruje číslo v intervalu (2,5> ,Cyklus se ukončí");
+        }
     }
 }
